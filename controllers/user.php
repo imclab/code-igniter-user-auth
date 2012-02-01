@@ -15,7 +15,7 @@ class User extends CI_Controller {
 		parent::__construct();
 	}
 	
-	/*
+	/**
 	 * Creates a new user.
 	 */
 	public function createuser()
@@ -31,7 +31,7 @@ class User extends CI_Controller {
 		$this->User_model->createuser($username, $email, $password, $created, $updated);
 	}
 	
-	/*
+	/**
 	 * Checks to see if login credentials match any users in the
 	 * database.
 	 */
